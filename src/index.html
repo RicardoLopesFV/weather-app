@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./scss/main.scss">
+  <title>Weather App</title>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Weather App</h1>
+    <div class="card__search">
+      <input class="card__search__input" type="text" placeholder="enter city name" spellcheck="false">
+      <button class="card__search__btn">
+        <img class="card__search__btn__img" src="./images/search.png">
+      </button>
+    </div>
+    <div class="card__weather">
+      <img class="card__weather__icon" src="./images/clear.png">
+      <h1 class="card__weather__temp"> 22°C </h1>
+      <h2 class="card__weather__city"> London </h2>
+      <div class="card__weather__details">
+        <div class="card__weather__details__col">
+          <img src="./images/humidity.png">
+          <div>
+            <p class="card__weather__details__col__humidity"> 50% </p>
+            <p class="card__weather__details__col__title"> Humidity </p>
+          </div>
+        </div>
+        <div class="card__weather__details__col">
+          <img src="./images/wind.png">
+          <div>
+            <p class="card__weather__details__col__wind"> 50 km/h </p>
+            <p class="card__weather__details__col__title"> Wind Speed </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./javascript/main.js"></script>
+</body>
+
+</html>

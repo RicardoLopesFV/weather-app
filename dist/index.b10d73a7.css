@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background-color: #222;
+}
+
+.card {
+  color: #fff;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 470px;
+  margin: 100px auto 0;
+  padding: 40px 35px;
+  display: flex;
+}
+
+.card h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.card__search {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.card__search__input {
+  color: #555;
+  background: #ebfffc;
+  border: 0;
+  border-radius: 30px;
+  outline: 0;
+  flex: 1;
+  height: 60px;
+  margin-right: 16px;
+  padding: 10px 25px;
+  font-size: 18px;
+}
+
+.card__search__btn {
+  cursor: pointer;
+  background: #ebfffc;
+  border: 0;
+  border-radius: 50%;
+  outline: 0;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  display: flex;
+}
+
+.card__search__btn__img {
+  width: 16px;
+}
+
+.card__weather {
+  visibility: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  height: 0;
+  display: flex;
+}
+
+.card__weather__icon {
+  width: 170px;
+  margin-top: 30px;
+}
+
+.card__weather__temp {
+  font-size: 4.7rem;
+  font-weight: 500;
+}
+
+.card__weather__city {
+  margin-top: -20px;
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+
+.card__weather__details {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  padding: 0 20px;
+  display: flex;
+}
+
+.card__weather__details__col {
+  text-align: left;
+  align-items: center;
+  display: flex;
+}
+
+.card__weather__details__col img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.card__weather__details__col div {
+  margin-left: 10px;
+}
+
+.card__weather__details__col__humidity, .card__weather__details__col__wind {
+  margin: -6px 0 10px;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=index.b10d73a7.css.map */
